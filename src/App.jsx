@@ -10,6 +10,10 @@ function App() {
       element: <Login/>
     },
     {
+      path: '/login',
+      element: <Login/>
+    },
+    {
       path:'/browser',
       element: <Browser/>
     }

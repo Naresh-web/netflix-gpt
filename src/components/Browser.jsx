@@ -1,9 +1,10 @@
 import React from 'react'
 
 const Browser = () => {
-  return (
-    <div>Browser</div>
-  )
+  return <>
+    <div>Loogged user</div>
+  </>
+
 }
 
 export default Browser
