@@ -1,3 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -75,8 +78,8 @@ button:focus-visible {
   position: absolute;
   top: 0;
   z-index: 999;
-  left: 20%;
-  top: 10%;
+  left: 10%;
+  top: 8%;
 }
 .login .logo img{
   width: 160px;
@@ -88,10 +91,11 @@ button:focus-visible {
 }
 .login .banner img{
   max-width: 100%;
+  position: fixed;
 }
 .login .banner::after{
   content: '';
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background: #00000096;
@@ -105,7 +109,7 @@ button:focus-visible {
   left: 50%;
   background-color: #000000c7;
   border-radius: 10px;
-  width: 15%;
+  width: 22rem;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
@@ -120,4 +124,7 @@ button:focus-visible {
 .login form h2{
   margin: 0 0 14px 0;
   font-size: 32px;
+}
+.login form p{
+  margin: 0;
 }

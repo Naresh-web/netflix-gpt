@@ -1,0 +1,14 @@
+{
+  "database": {
+    "rules": "database.rules.json",
+    "public": "build/arpanx-social-network"
+  },
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
